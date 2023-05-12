@@ -1,0 +1,11 @@
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\bin\Debug\CADASTRTO DE AUTOR.exe.config
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\bin\Debug\CADASTRTO DE AUTOR.exe
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\bin\Debug\CADASTRTO DE AUTOR.pdb
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.AssemblyReference.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.SuggestedBindingRedirects.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO_DE_AUTOR.Form1.resources
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO_DE_AUTOR.Properties.Resources.resources
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.GenerateResource.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.CoreCompileInputs.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO DE AUTOR.exe
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CADASTRTO DE AUTOR\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO DE AUTOR.pdb
