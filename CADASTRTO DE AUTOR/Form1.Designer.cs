@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dadosGrid = new System.Windows.Forms.DataGridView();
+            this.colcodigoAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colnomeDoAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coldecricaoAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Excluir = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.txtDescAutor = new System.Windows.Forms.TextBox();
@@ -38,9 +41,7 @@
             this.txtcodAutor = new System.Windows.Forms.TextBox();
             this.labelCodAutor = new System.Windows.Forms.Label();
             this.labelNomeAutor = new System.Windows.Forms.Label();
-            this.colcodigoAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colnomeDoAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coldecricaoAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.asteriscoAlert = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dadosGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,10 +62,37 @@
             this.dadosGrid.Location = new System.Drawing.Point(11, 118);
             this.dadosGrid.Name = "dadosGrid";
             this.dadosGrid.ReadOnly = true;
+            this.dadosGrid.RowHeadersWidth = 51;
             this.dadosGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dadosGrid.Size = new System.Drawing.Size(553, 257);
             this.dadosGrid.TabIndex = 19;
             this.dadosGrid.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dadosGrid_CellDoubleClick);
+            // 
+            // colcodigoAutor
+            // 
+            this.colcodigoAutor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.colcodigoAutor.FillWeight = 152.2843F;
+            this.colcodigoAutor.HeaderText = "Codigo";
+            this.colcodigoAutor.MinimumWidth = 6;
+            this.colcodigoAutor.Name = "colcodigoAutor";
+            this.colcodigoAutor.ReadOnly = true;
+            this.colcodigoAutor.Width = 82;
+            // 
+            // colnomeDoAutor
+            // 
+            this.colnomeDoAutor.FillWeight = 73.85786F;
+            this.colnomeDoAutor.HeaderText = "Nome do Autor";
+            this.colnomeDoAutor.MinimumWidth = 6;
+            this.colnomeDoAutor.Name = "colnomeDoAutor";
+            this.colnomeDoAutor.ReadOnly = true;
+            // 
+            // coldecricaoAutor
+            // 
+            this.coldecricaoAutor.FillWeight = 73.85786F;
+            this.coldecricaoAutor.HeaderText = "Descrição do Autor";
+            this.coldecricaoAutor.MinimumWidth = 6;
+            this.coldecricaoAutor.Name = "coldecricaoAutor";
+            this.coldecricaoAutor.ReadOnly = true;
             // 
             // btn_Excluir
             // 
@@ -108,7 +136,7 @@
             this.labelDescAutor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescAutor.Location = new System.Drawing.Point(8, 65);
             this.labelDescAutor.Name = "labelDescAutor";
-            this.labelDescAutor.Size = new System.Drawing.Size(108, 15);
+            this.labelDescAutor.Size = new System.Drawing.Size(137, 20);
             this.labelDescAutor.TabIndex = 15;
             this.labelDescAutor.Text = "Descrição do Autor";
             // 
@@ -119,8 +147,9 @@
             this.txtNomeAutor.BackColor = System.Drawing.SystemColors.Info;
             this.txtNomeAutor.Location = new System.Drawing.Point(122, 41);
             this.txtNomeAutor.Name = "txtNomeAutor";
-            this.txtNomeAutor.Size = new System.Drawing.Size(351, 22);
+            this.txtNomeAutor.Size = new System.Drawing.Size(351, 25);
             this.txtNomeAutor.TabIndex = 14;
+            this.txtNomeAutor.TextChanged += new System.EventHandler(this.txtNomeAutor_TextChanged);
             // 
             // txtcodAutor
             // 
@@ -128,7 +157,7 @@
             this.txtcodAutor.Enabled = false;
             this.txtcodAutor.Location = new System.Drawing.Point(122, 17);
             this.txtcodAutor.Name = "txtcodAutor";
-            this.txtcodAutor.Size = new System.Drawing.Size(68, 22);
+            this.txtcodAutor.Size = new System.Drawing.Size(68, 25);
             this.txtcodAutor.TabIndex = 13;
             // 
             // labelCodAutor
@@ -137,7 +166,7 @@
             this.labelCodAutor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCodAutor.Location = new System.Drawing.Point(8, 17);
             this.labelCodAutor.Name = "labelCodAutor";
-            this.labelCodAutor.Size = new System.Drawing.Size(46, 15);
+            this.labelCodAutor.Size = new System.Drawing.Size(58, 20);
             this.labelCodAutor.TabIndex = 12;
             this.labelCodAutor.Text = "Codigo";
             // 
@@ -147,39 +176,30 @@
             this.labelNomeAutor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNomeAutor.Location = new System.Drawing.Point(8, 41);
             this.labelNomeAutor.Name = "labelNomeAutor";
-            this.labelNomeAutor.Size = new System.Drawing.Size(90, 15);
+            this.labelNomeAutor.Size = new System.Drawing.Size(113, 20);
             this.labelNomeAutor.TabIndex = 11;
             this.labelNomeAutor.Text = "Nome do Autor";
             // 
-            // colcodigoAutor
+            // asteriscoAlert
             // 
-            this.colcodigoAutor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.colcodigoAutor.FillWeight = 152.2843F;
-            this.colcodigoAutor.HeaderText = "Codigo";
-            this.colcodigoAutor.Name = "colcodigoAutor";
-            this.colcodigoAutor.ReadOnly = true;
-            this.colcodigoAutor.Width = 70;
-            // 
-            // colnomeDoAutor
-            // 
-            this.colnomeDoAutor.FillWeight = 73.85786F;
-            this.colnomeDoAutor.HeaderText = "Nome do Autor";
-            this.colnomeDoAutor.Name = "colnomeDoAutor";
-            this.colnomeDoAutor.ReadOnly = true;
-            // 
-            // coldecricaoAutor
-            // 
-            this.coldecricaoAutor.FillWeight = 73.85786F;
-            this.coldecricaoAutor.HeaderText = "Descrição do Autor";
-            this.coldecricaoAutor.Name = "coldecricaoAutor";
-            this.coldecricaoAutor.ReadOnly = true;
+            this.asteriscoAlert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.asteriscoAlert.AutoSize = true;
+            this.asteriscoAlert.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.asteriscoAlert.ForeColor = System.Drawing.Color.Red;
+            this.asteriscoAlert.Location = new System.Drawing.Point(475, 41);
+            this.asteriscoAlert.Name = "asteriscoAlert";
+            this.asteriscoAlert.Size = new System.Drawing.Size(15, 19);
+            this.asteriscoAlert.TabIndex = 20;
+            this.asteriscoAlert.Text = "*";
+            this.asteriscoAlert.MouseHover += new System.EventHandler(this.asteriscoAlert_MouseHover);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(576, 383);
+            this.Controls.Add(this.asteriscoAlert);
             this.Controls.Add(this.dadosGrid);
             this.Controls.Add(this.btn_Excluir);
             this.Controls.Add(this.btnSalvar);
@@ -216,6 +236,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colcodigoAutor;
         private System.Windows.Forms.DataGridViewTextBoxColumn colnomeDoAutor;
         private System.Windows.Forms.DataGridViewTextBoxColumn coldecricaoAutor;
+        private System.Windows.Forms.Label asteriscoAlert;
     }
 }
 

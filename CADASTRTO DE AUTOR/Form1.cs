@@ -10,6 +10,10 @@ using System.Windows.Forms;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Reflection.Emit;
+using Label = System.Windows.Forms.Label;
+using ToolTip = System.Windows.Forms.ToolTip;
 
 namespace CADASTRTO_DE_AUTOR
 {
@@ -173,6 +177,26 @@ namespace CADASTRTO_DE_AUTOR
                     btn_Excluir.Enabled = true;
                 }
             }
+        }
+
+        private void txtNomeAutor_TextChanged(object sender, EventArgs e)
+        {
+            if (txtNomeAutor.Text == "")
+            {
+                asteriscoAlert.Visible = true;  // Mostra a label se o TextBox estiver vazio
+            }
+            else
+            {
+                asteriscoAlert.Visible = false; // Oculta a label se o TextBox estiver preenchido
+            }
+        }
+
+        private void asteriscoAlert_MouseHover(object sender, EventArgs e)
+        {
+            Label label = (Label)sender;
+            string mensagem = "Este Campo é obrigatório!";
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(label, mensagem);
         }
     }
 }
