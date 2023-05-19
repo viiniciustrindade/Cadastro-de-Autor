@@ -59,6 +59,7 @@
             this.colcodigoAutor,
             this.colnomeDoAutor,
             this.coldecricaoAutor});
+            this.dadosGrid.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dadosGrid.Location = new System.Drawing.Point(11, 118);
             this.dadosGrid.Name = "dadosGrid";
             this.dadosGrid.ReadOnly = true;
@@ -97,6 +98,7 @@
             // btn_Excluir
             // 
             this.btn_Excluir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Excluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Excluir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Excluir.Location = new System.Drawing.Point(479, 88);
             this.btn_Excluir.Name = "btn_Excluir";
@@ -109,6 +111,7 @@
             // btnSalvar
             // 
             this.btnSalvar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.Black;
             this.btnSalvar.Location = new System.Drawing.Point(479, 65);
