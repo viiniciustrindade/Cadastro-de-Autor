@@ -85,8 +85,9 @@ namespace CADASTRTO_DE_AUTOR
         public List<AutorModel> GetAutores()
         {
             List<AutorModel> autores = new List<AutorModel>();
-            using (SqlCommand command = Connection.CreateCommand())
-            {
+            SqlCommand command = Connection.CreateCommand();
+            //using (SqlCommand command = Connection.CreateCommand())
+            //{
                 StringBuilder sql = new StringBuilder();
                 sql.AppendLine("SELECT AUT.codAutor, AUT.nomeAutor, AUT.descricaoAutor FROM mvtBibAutor AUT");
                 command.CommandText = sql.ToString();
@@ -97,7 +98,7 @@ namespace CADASTRTO_DE_AUTOR
                         autores.Add(PopulateDr(dr));
                     }
                 }
-            }
+            //}
             return autores;
         }
         private AutorModel PopulateDr(SqlDataReader dr)
