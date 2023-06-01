@@ -16,7 +16,7 @@ namespace CADASTRTO_DE_AUTOR
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmCadastroAutor());
         }
     }
 }

@@ -20,3 +20,4 @@ C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CA
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.CoreCompileInputs.cache
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO DE AUTOR.exe
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO DE AUTOR.pdb
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO_DE_AUTOR.FrmCadastroAutor.resources
