@@ -14,7 +14,6 @@ C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CA
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\bin\Debug\CADASTRTO DE AUTOR.pdb
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.AssemblyReference.cache
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.SuggestedBindingRedirects.cache
-C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO_DE_AUTOR.Form1.resources
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRTO_DE_AUTOR.Properties.Resources.resources
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.GenerateResource.cache
 C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\movtech - Cadastro de Autor\CADASTRTO DE AUTOR\obj\Debug\CADASTRO DE AUTOR.csproj.CoreCompileInputs.cache
